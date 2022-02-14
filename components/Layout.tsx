@@ -1,8 +1,12 @@
 import React, { FC } from 'react';
+import Navbar from './Navbar';
 
 const Layout: FC = ({ children }) => {
   return (
-    <div>{children}</div>
+    <>
+      <Navbar />
+      <div>{children}</div>
+    </>
   );
 };
 
