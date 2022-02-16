@@ -11,7 +11,7 @@ const Header = () => {
           display: flex;
           justify-content: space-between;
           align-items: center;
-          margin: 1.5rem 2rem;
+          margin: 0 2rem;
         }
       `}
       </style>
