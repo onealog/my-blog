@@ -23,7 +23,12 @@ const Copyright = () => {
           flex-grow: 1;
         }
 
+        span {
+          font-size: 0.8rem;
+        }
+
         .copy-name {
+          font-size: 0.8rem;
           margin-left: 3px;
           text-decoration: underline;
         }

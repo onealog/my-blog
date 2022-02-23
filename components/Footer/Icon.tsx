@@ -53,6 +53,10 @@ const Icon = () => {
           font-size: 24px;
           color: #b6b6b6;
         }
+
+        .icon-link:hover {
+          color: #0B71CD;
+        }
         `}</style>
     </>
   );

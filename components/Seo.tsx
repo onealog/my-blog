@@ -1,7 +1,7 @@
 import Head from 'next/head';
 
 type Prop = {
-  title: string,
+  title: string;
 };
 
 const Seo = ({ title }: Prop) => {
