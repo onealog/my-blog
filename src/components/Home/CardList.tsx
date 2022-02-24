@@ -1,10 +1,6 @@
-type Props = {
-  title: string;
-  date: string;
-  description: string;
-}
+import { CardListProps } from '../../types/styles';
 
-const CardList = ({ title, date, description }: Props) => {
+const CardList = ({ title, date, description }: CardListProps) => {
   return (
     <>
       <div className="card-section">

@@ -14,7 +14,7 @@ const Navbar = () => {
           font-size: 12px;
           font-weight: 600;
           color: white;
-          background-color: #0B71CD;
+          background-color: #0b71cd;
         }
       `}</style>
     </nav>

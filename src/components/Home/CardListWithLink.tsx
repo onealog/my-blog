@@ -1,11 +1,6 @@
-type Props = {
-  link: string;
-  title: string;
-  date: string;
-  description: string;
-}
+import { CardListWithLinkProps } from '../../types/styles';
 
-const CardListWithLink = ({ link, title, date, description }: Props) => {
+const CardListWithLink = ({ link, title, date, description }: CardListWithLinkProps) => {
   return (
     <>
       <div className="card-section">
@@ -45,7 +40,7 @@ const CardListWithLink = ({ link, title, date, description }: Props) => {
         .link:focus,
         .link.active {
           cursor: pointer;
-          color: #0B71CD;
+          color: #0b71cd;
         }
 
         h4 {

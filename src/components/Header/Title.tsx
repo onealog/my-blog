@@ -10,7 +10,7 @@ const Title = () => {
       </Link>
       <style jsx>{`
         .text-log {
-          color: #0B71CD;
+          color: #0b71cd;
         }
       `}
       </style>

@@ -85,7 +85,7 @@ const Home = () => {
 
         .category {
           margin-top: 1.5rem;
-          color: #0B71CD;
+          color: #0b71cd;
         }
 
         .highlight,
