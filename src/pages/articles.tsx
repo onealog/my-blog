@@ -1,14 +1,10 @@
-import type { NextPage } from 'next';
-import Head from 'next/head';
-import Image from 'next/image';
 import Seo from '../components/Seo';
 import styles from '../styles/Home.module.css';
 
-const Home: NextPage = () => {
+const articles = () => {
   return (
-    <div className={styles.container}>
-      <Seo title="Home" />
-
+    <>
+      <Seo title="articles" />
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
@@ -49,8 +45,8 @@ const Home: NextPage = () => {
           </a>
         </div>
       </main>
-    </div>
-  )
-}
+    </>
+  );
+};
 
-export default Home
+export default articles;

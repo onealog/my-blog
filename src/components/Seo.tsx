@@ -1,10 +1,10 @@
 import Head from 'next/head';
 
-type Prop = {
-  title: string,
+interface TitleProp {
+  title: string;
 };
 
-const Seo = ({ title }: Prop) => {
+const Seo = ({ title }: TitleProp) => {
   return (
     <Head>
       <title>{title} | 원아로그, onealog</title>

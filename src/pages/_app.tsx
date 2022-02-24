@@ -23,6 +23,14 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
         * {
           box-sizing: border-box;
         }
+
+        ::selection {
+          background: #d7f7ff;;
+        }
+
+        ::-moz-selection {
+          background: #d7f7ff;;
+        }
       `}</style>
     </Layout>
   );
