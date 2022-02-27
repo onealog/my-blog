@@ -20,6 +20,11 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
           text-decoration: none;
         }
 
+        hr {
+          border: 0 solid #dddddd;
+          border-top-width: 1px;
+        }
+
         * {
           box-sizing: border-box;
         }
