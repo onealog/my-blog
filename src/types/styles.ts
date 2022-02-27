@@ -7,3 +7,10 @@ export interface CardListProps {
 export interface CardListWithLinkProps extends CardListProps {
   link: string;
 };
+
+export interface IntroductionProps {
+  title1: string;
+  title2: string;
+  subTitle1: string;
+  subTitle2: string;
+};
