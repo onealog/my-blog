@@ -15,6 +15,10 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
             Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
         }
 
+        * {
+          box-sizing: border-box;
+        }
+
         a {
           color: inherit;
           text-decoration: none;
@@ -25,8 +29,13 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
           border-top-width: 1px;
         }
 
-        * {
-          box-sizing: border-box;
+        ul {
+          margin: 0px;
+          padding: 0px;
+        }
+
+        li {
+          list-style: none;
         }
 
         ::selection {
