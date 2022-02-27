@@ -3,8 +3,8 @@ import Link from 'next/link';
 const Navbar = () => {
   return (
     <nav>
-      <Link href="/articles">
-        <a>Articles</a>
+      <Link href="/posts">
+        <a>Posts</a>
       </Link>
       <style jsx>{`
         a {
