@@ -1,3 +1,4 @@
+import Introduction from '../shared/Introduction';
 import CardList from './CardList';
 import CardListWithLink from './CardListWithLink';
 
@@ -6,17 +7,15 @@ const Home = () => {
     <>
       <main>
         <div>
-          <div className="head">
-            <h1 className="title">
-              <div>고객의 가치를 누구보다 중요시하는</div>
-              <div>소프트웨어 개발자 <span className="highlight">한재원</span>입니다.</div>
-            </h1>
-            <p className="sub-title">조직문화, 협업, 메타인지에 특히 관심이 많습니다.</p>
-            <p className="sub-title">현재 <a className="highlight">콘텐츠 디스커버리 플랫폼 데이블</a>에서 프런트엔드를 개발하고 있습니다.</p>
-          </div>
-
+          <Introduction
+            title1="고객의 가치를 누구보다 중요시하는"
+            title2="소프트웨어 개발자 원아입니다."
+            subTitle1="조직문화, 협업, 메타인지에 특히 관심이 많습니다."
+            subTitle2="현재 콘텐츠 디스커버리 플랫폼 데이블에서 프런트엔드를 개발하고 있습니다."
+          />
           <div>
             <h2 className="category">Work Experience</h2>
+            <hr />
             <CardList
               title="Dable"
               date="2022.02 - Now"
@@ -37,16 +36,16 @@ const Home = () => {
               date="2017.01 - 2018.04"
               description="Account Executive"
             />
-
             <h2 className="category">Project</h2>
+            <hr />
             <CardListWithLink
               link="https://www.easyme.online/d"
               title="EASYME.md"
               date="2021.09 - 10"
               description="개발자가 README를 쉽게 작성할 수 있는 README 에디터"
             />
-
             <h2 className="category">Education</h2>
+            <hr />
             <CardList
               title="Vanilla Coding Bootcamp"
               date="2021.03 - 10"
@@ -68,46 +67,17 @@ const Home = () => {
           width: 100%;
         }
 
-        .head {
-          margin-bottom: 0.5rem;
-        }
-
-        .title {
-          margin-top: 0;
-          font-size: 1.5rem;
-        }
-
-        .sub-title {
-          margin-top: 0.2rem;
-          margin-bottom: 0.2rem;
-          color: #818181;
-        }
-
-        .category {
-          margin-top: 1.5rem;
-          color: #0b71cd;
-        }
-
-        .highlight,
-        .category {
-          display: inline-block;
-          padding: 0 2px;
-          box-shadow: inset 0 -10px 0 #d7f7ff;
-        }
-
         h2 {
           font-size: 1.2rem;
           margin: 0;
         }
 
-        @media (max-width: 392px) {
-          .title {
-            font-size: 1.2rem;
-          }
-
-          .sub-title {
-            font-size: 0.8rem;
-          }
+        .category {
+          margin-top: 1.5rem;
+          color: #0b71cd;
+          display: inline-block;
+          padding: 0 2px;
+          box-shadow: inset 0 -10px 0 #d7f7ff;
         }
         `}</style>
     </>
