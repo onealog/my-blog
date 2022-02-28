@@ -9,9 +9,10 @@ const Navbar = () => {
       <style jsx>{`
         a {
           margin-left: 0.8rem;
-          padding: 0.2rem 0.5rem;
-          border-radius: 0.5rem;
-          font-size: 12px;
+          padding: 0.3rem 0.7rem;
+          border-radius: 50px;
+          font-size: 0.9rem;
+          text-align: center;
           font-weight: 600;
           color: white;
           background-color: #0b71cd;
