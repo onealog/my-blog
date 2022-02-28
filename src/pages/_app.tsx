@@ -25,7 +25,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
         }
 
         hr {
-          border: 0 solid #dddddd;
+          border: 0 solid #eaeaea;
           border-top-width: 1px;
         }
 

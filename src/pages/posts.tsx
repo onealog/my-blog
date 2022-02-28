@@ -1,48 +1,38 @@
 import Seo from '../components/Seo';
-import { useRouter } from 'next/router';
+import Post from '../components/Post';
+import image from '../components/Post/test.jpg';
 
 const posts = () => {
-  const router = useRouter();
-
   return (
     <>
       <Seo title="posts" />
-      <main className="wrapper">
+      <main>
         <ul>
-          <li>
-            <a href={`${router.pathname}/a`}>
-              <div className="post">
-                <div className="post-text">
-                  <h1>여기가 바로 타이틀이지요.</h1>
-                  <h2>여기가 바로 부제목 공간이지요. 여긴 좀 길게 써도 될 것 같습니다만.. 여긴 좀 길게 써도 될 것 같습니다만.. 여긴 좀 길게 써도 될 것 같습니다만.. 여긴 좀 길게 써도 될 것 같습니다만.. 여긴 좀 길게 써도 될 것 같습니다만.. 여긴 좀 길게 써도 될 것 같습니다만.. 여긴 좀 길게 써도 될 것 같습니다만..</h2>
-                  <p>2022년 2월 27일</p>
-                </div>
-                <div></div>
-              </div>
-            </a>
-          </li>
+          <Post image={image} />
+          <Post image={image} />
+          <Post image={image} />
+          <Post image={image} />
+          <Post image={image} />
+          <Post image={image} />
+          <Post image={image} />
+          <Post image={image} />
+          <Post image={image} />
         </ul>
       </main>
       <style jsx>{`
         main {
           margin: 0 2rem;
+          padding: 0 2rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-right: auto !important;
+          margin-left: auto !important;
+          width: 100%;
         }
 
-        h1 {
-          font-size: 1.5rem;
-          margin-bottom: 0;
-        }
-
-        h2 {
-          margin: 5px 0;
-          font-size: 1rem;
-          font-weight: 500;
-          color: #818181;
-        }
-
-        p {
-          font-size: 0.8rem;
-          color: #818181;
+        ul {
+          width: 50rem;
         }
       `}</style>
     </>
