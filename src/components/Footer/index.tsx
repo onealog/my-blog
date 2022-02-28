@@ -10,7 +10,7 @@ const Footer = () => {
         footer {
           display: flex;
           flex: 1;
-          margin: 0 2rem;
+          margin: 0.5rem 2rem;
           justify-content: space-between;
           align-items: center;
           padding: 2rem 0;
