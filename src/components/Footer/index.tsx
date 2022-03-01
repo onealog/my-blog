@@ -9,14 +9,21 @@ const Footer = () => {
       <style jsx>{`
         footer {
           display: flex;
-          flex: 1;
           margin: 0.5rem 2rem;
           justify-content: space-between;
           align-items: center;
-          padding: 2rem 0;
           border-top: 1px solid #eaeaea;
+          padding: 2rem;
+          margin-right: auto;
+          margin-left: auto;
         }
-        `}</style>
+
+        @media (min-width: 768px) {
+          footer {
+            max-width: 768px;
+          }
+        }
+      `}</style>
     </footer>
   );
 };

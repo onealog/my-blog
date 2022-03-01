@@ -34,6 +34,12 @@ const posts = () => {
         ul {
           width: 50rem;
         }
+
+        @media (min-width: 768px) {
+          main {
+            max-width: 768px;
+          }
+        }
       `}</style>
     </>
   );

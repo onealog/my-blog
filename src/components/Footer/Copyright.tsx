@@ -19,7 +19,6 @@ const Copyright = () => {
         .copy {
           color: #b6b6b6;
           display: flex;
-          justify-content: center;
           flex-grow: 1;
         }
 
@@ -31,6 +30,13 @@ const Copyright = () => {
           font-size: 0.8rem;
           margin-left: 3px;
           text-decoration: underline;
+        }
+
+        @media (max-width: 392px) {
+          span,
+          .copy-name {
+            font-size: 0.6rem;
+          }
         }
         `}</style>
     </>

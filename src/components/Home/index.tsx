@@ -61,10 +61,8 @@ const Home = () => {
           display: flex;
           flex-direction: column;
           justify-content: center;
-          align-items: center;
           margin-right: auto;
           margin-left: auto;
-          width: 100%;
         }
 
         h2 {
@@ -78,6 +76,12 @@ const Home = () => {
           display: inline-block;
           padding: 0 2px;
           box-shadow: inset 0 -10px 0 #d7f7ff;
+        }
+
+        @media (min-width: 768px) {
+          main {
+            max-width: 768px;
+          }
         }
         `}</style>
     </>
