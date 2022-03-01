@@ -11,10 +11,17 @@ const Header = () => {
           display: flex;
           justify-content: space-between;
           align-items: center;
-          margin: 0 2rem;
+          padding: 0 2rem;
+          margin-right: auto;
+          margin-left: auto;
         }
-      `}
-      </style>
+
+        @media (min-width: 768px) {
+          header {
+            max-width: 768px;
+          }
+        }
+      `}</style>
     </header>
   );
 };

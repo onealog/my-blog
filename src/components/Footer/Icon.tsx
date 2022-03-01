@@ -42,7 +42,6 @@ const Icon = () => {
           display: flex;
           justify-content: center;
           align-items: center;
-          flex-grow: 1;
         }
 
         .icon-link {
@@ -56,6 +55,12 @@ const Icon = () => {
 
         .icon-link:hover {
           color: #0b71cd;
+        }
+
+        @media (max-width: 392px) {
+          .icon-link {
+            font-size: 18px;
+          }
         }
         `}</style>
     </>

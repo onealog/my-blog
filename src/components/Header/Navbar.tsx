@@ -12,7 +12,6 @@ const Navbar = () => {
           padding: 0.3rem 0.7rem;
           border-radius: 50px;
           font-size: 0.9rem;
-          text-align: center;
           font-weight: 600;
           color: white;
           background-color: #0b71cd;
