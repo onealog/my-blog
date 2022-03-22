@@ -8,9 +8,9 @@ const PostHeader = ({ title, coverImage, date }: Props) => {
   return (
     <>
       <img src={coverImage} />
-      <div className="title-wrapper">
+      <div className="wrapper">
         <h1>{title}</h1>
-        <div className="date">{date}</div>
+        <h2 className="date">{date}</h2>
       </div>
 
       <style jsx>{`
@@ -20,12 +20,7 @@ const PostHeader = ({ title, coverImage, date }: Props) => {
           height: 320px;
         }
 
-        h1 {
-          font-size: 1.8rem;
-          margin-bottom: 0.5rem;
-        }
-
-        .title-wrapper {
+        .wrapper {
           display: flex;
           flex-direction: column;
           margin-left: auto;
@@ -34,20 +29,35 @@ const PostHeader = ({ title, coverImage, date }: Props) => {
           min-width: 768px;
         }
 
-        .date {
+        h1 {
+          font-size: 1.8rem;
+          margin-bottom: 0.5rem;
+          line-height: 2.5rem;
+        }
+
+        h2 {
+          margin: 0;
           font-size: 1.2rem;
+          font-weight: 400;
           color: #7c7c7c;
         }
 
-        @media (max-width: 600px) {
+        @media (max-width: 768px) {
           img {
             height: 240px;
           }
-        }
 
-        @media (max-width: 768px) {
-          .title-wrapper {
+          .wrapper {
             min-width: 100%;
+          }
+
+          h1 {
+            margin-top: 0.5rem;
+            font-size: 1.5rem;
+          }
+
+          h2 {
+            font-size: 1rem;
           }
         }
         `}</style>
