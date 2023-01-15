@@ -3,6 +3,9 @@ module.exports = {
   content: ['./src/components/**/*.tsx', './src/pages/**/*.tsx'],
   theme: {
     extend: {
+      fontFamily: {
+        'sans': ['Pretendard', 'sans-serif']
+      },
       colors: {
         green: {
           500: '#3C6255',
