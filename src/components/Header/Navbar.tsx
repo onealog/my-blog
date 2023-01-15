@@ -6,6 +6,9 @@ const Navbar = () => {
       <Link href="/posts">
         <a>Posts</a>
       </Link>
+      <Link href="/about">
+        <a>About</a>
+      </Link>
       <style jsx>{`
         a {
           margin-left: 0.8rem;
