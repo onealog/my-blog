@@ -1,6 +1,6 @@
 import Introduction from '../components/shared/Introduction';
-import CardList from '../components/Home/CardList';
-import CardListWithLink from '../components/Home/CardListWithLink';
+import CardList from '../components/About/CardList';
+import CardListWithLink from '../components/About/CardListWithLink';
 
 const Home = () => {
   return (
