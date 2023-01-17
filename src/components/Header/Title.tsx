@@ -5,15 +5,11 @@ const Title = () => {
     <>
       <Link href="/">
         <a>
-          <h1>🙋 onea<span className="text-log">log</span></h1>
+          <h1 className="text-3xl font-sans font-bold">
+            🙋 onea<span className="text-green-500">log</span>
+          </h1>
         </a>
       </Link>
-      <style jsx>{`
-        .text-log {
-          color: #0b71cd;
-        }
-      `}
-      </style>
     </>
   );
 };

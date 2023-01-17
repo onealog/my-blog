@@ -1,8 +1,8 @@
-import Head from 'next/head';
+import Head from "next/head";
 
 interface TitleProp {
   title: string;
-};
+}
 
 const Seo = ({ title }: TitleProp) => {
   return (

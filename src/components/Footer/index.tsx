@@ -1,5 +1,5 @@
-import Copyright from './Copyright';
-import Icon from './Icon';
+import Copyright from "./Copyright";
+import Icon from "./Icon";
 
 const Footer = () => {
   return (

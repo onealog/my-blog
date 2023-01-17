@@ -1,6 +1,6 @@
-import Seo from '../components/Seo';
-import Post from '../components/Post';
-import image from '../components/Post/test.jpg';
+import Seo from "../components/Seo";
+import Post from "../components/Post";
+import image from "../components/Post/test.jpg";
 
 const posts = () => {
   return (

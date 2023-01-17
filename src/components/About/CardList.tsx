@@ -1,4 +1,4 @@
-import { CardListProps } from '../../types/styles';
+import { CardListProps } from "../../types/styles";
 
 const CardList = ({ title, date, description }: CardListProps) => {
   return (

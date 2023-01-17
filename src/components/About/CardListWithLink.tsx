@@ -1,16 +1,17 @@
-import { CardListWithLinkProps } from '../../types/styles';
+import { CardListWithLinkProps } from "../../types/styles";
 
-const CardListWithLink = ({ link, title, date, description }: CardListWithLinkProps) => {
+const CardListWithLink = ({
+  link,
+  title,
+  date,
+  description,
+}: CardListWithLinkProps) => {
   return (
     <>
       <div className="card-section">
         <div className="name-link">
           <div className="link">
-            <a
-              href={link}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href={link} target="_blank" rel="noopener noreferrer">
               {title}
             </a>
           </div>
