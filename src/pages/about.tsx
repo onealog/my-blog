@@ -1,6 +1,6 @@
-import Introduction from '../components/shared/Introduction';
-import CardList from '../components/About/CardList';
-import CardListWithLink from '../components/About/CardListWithLink';
+import Introduction from "../components/shared/Introduction";
+import CardList from "../components/About/CardList";
+import CardListWithLink from "../components/About/CardListWithLink";
 
 const Home = () => {
   return (
@@ -83,7 +83,7 @@ const Home = () => {
             max-width: 768px;
           }
         }
-        `}</style>
+      `}</style>
     </>
   );
 };

@@ -1,4 +1,9 @@
-import { BsFacebook, BsGithub, BsLinkedin, BsFileEarmarkText } from 'react-icons/bs';
+import {
+  BsFacebook,
+  BsGithub,
+  BsLinkedin,
+  BsFileEarmarkText,
+} from "react-icons/bs";
 
 const Icon = () => {
   return (
@@ -62,7 +67,7 @@ const Icon = () => {
             font-size: 18px;
           }
         }
-        `}</style>
+      `}</style>
     </>
   );
 };

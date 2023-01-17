@@ -1,6 +1,11 @@
-import { IntroductionProps } from '../../types/styles';
+import { IntroductionProps } from "../../types/styles";
 
-const Introduction = ({ title1, title2, subTitle1, subTitle2 }: IntroductionProps) => {
+const Introduction = ({
+  title1,
+  title2,
+  subTitle1,
+  subTitle2,
+}: IntroductionProps) => {
   return (
     <>
       <div className="head">

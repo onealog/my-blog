@@ -1,7 +1,7 @@
-import type { NextPage } from 'next';
+import type { NextPage } from "next";
 
-import Seo from '../components/Seo';
-import Home from '../components/Home';
+import Seo from "../components/Seo";
+import Home from "../components/Home";
 
 const home: NextPage = () => {
   return (
@@ -9,7 +9,7 @@ const home: NextPage = () => {
       <Seo title="Home" />
       <Home />
     </>
-  )
-}
+  );
+};
 
 export default home;

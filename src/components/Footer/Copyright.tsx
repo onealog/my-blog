@@ -3,15 +3,14 @@ const Copyright = () => {
     <>
       <div className="copy">
         <div>
-          <span>
-            copyrightⓒ 2022 All rights reserved by
-          </span>
+          <span>copyrightⓒ 2022 All rights reserved by</span>
           <a
             href="mailto:oneadev@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
             className="copy-name"
-          >ONE:A.
+          >
+            ONE:A.
           </a>
         </div>
       </div>
@@ -38,7 +37,7 @@ const Copyright = () => {
             font-size: 0.6rem;
           }
         }
-        `}</style>
+      `}</style>
     </>
   );
 };

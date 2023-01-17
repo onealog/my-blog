@@ -1,5 +1,5 @@
-import Title from './Title';
-import Navbar from './Navbar';
+import Title from "./Title";
+import Navbar from "./Navbar";
 
 const Header = () => {
   return (
