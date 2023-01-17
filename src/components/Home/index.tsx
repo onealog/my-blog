@@ -1,4 +1,5 @@
 import { FaArrowRight } from "react-icons/fa";
+import PreviewPosts from "../Post/PreviewPosts";
 import Introduction from "../shared/Introduction";
 
 const Home = () => {
@@ -72,6 +73,7 @@ const Home = () => {
           firstDescription="조직문화, 협업, 메타인지에 특히 관심이 많습니다."
           secondeDescription="현재 콘텐츠 디스커버리 플랫폼 데이블에서 프론트엔드 개발을 하고 있습니다."
         />
+        <PreviewPosts />
       </main>
     </>
   );
