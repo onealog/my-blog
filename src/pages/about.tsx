@@ -7,12 +7,6 @@ const Home = () => {
     <>
       <main>
         <div>
-          <Introduction
-            title1="고객의 가치를 누구보다 중요시하는"
-            title2="소프트웨어 개발자 원아입니다."
-            subTitle1="조직문화, 협업, 메타인지에 특히 관심이 많습니다."
-            subTitle2="현재 콘텐츠 디스커버리 플랫폼 데이블에서 프런트엔드를 개발하고 있습니다."
-          />
           <div>
             <h2 className="category">Work Experience</h2>
             <hr />

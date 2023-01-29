@@ -1,54 +1,43 @@
-import { IntroductionProps } from "../../types/styles";
+import Image from "next/image";
+import image from "/public/onea.jpeg";
+
+interface IntroductionProps {
+  firstTitle: string;
+  secondTitle: string;
+  firstDescription: string;
+  secondeDescription: string;
+}
 
 const Introduction = ({
-  title1,
-  title2,
-  subTitle1,
-  subTitle2,
+  firstTitle,
+  secondTitle,
+  firstDescription,
+  secondeDescription,
 }: IntroductionProps) => {
   return (
-    <>
-      <div className="head">
-        <h1 className="title">
-          <div>{title1}</div>
-          <div>{title2}</div>
+    <div className="flex justify-between mt-16">
+      <div>
+        <h1 className="text-2xl font-bold">
+          <p>{firstTitle}</p>
+          <p>{secondTitle}</p>
         </h1>
-        <p className="sub-title">{subTitle1}</p>
-        <p className="sub-title">{subTitle2}</p>
+        <div className="mt-2 text-gray-400">
+          <p>{firstDescription}</p>
+          <p>{secondeDescription}</p>
+        </div>
       </div>
-      <style jsx>{`
-        .head {
-          margin-bottom: 0.5rem;
-        }
-
-        .title {
-          margin-top: 0;
-          font-size: 1.5rem;
-        }
-
-        .sub-title {
-          margin-top: 0.2rem;
-          margin-bottom: 0.2rem;
-          color: #818181;
-        }
-
-        .highlight {
-          display: inline-block;
-          padding: 0 2px;
-          box-shadow: inset 0 -10px 0 #d7f7ff;
-        }
-
-        @media (max-width: 392px) {
-          .title {
-            font-size: 1.2rem;
-          }
-
-          .sub-title {
-            font-size: 0.8rem;
-          }
-        }
-      `}</style>
-    </>
+      <div>
+        <Image
+          src={image}
+          alt="onealog jaewon han"
+          placeholder="blur"
+          height={120}
+          width={120}
+          priority
+          className="rounded-full filter grayscale"
+        />
+      </div>
+    </div>
   );
 };
 
